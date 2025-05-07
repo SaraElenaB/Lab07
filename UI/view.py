@@ -23,7 +23,7 @@ class View(ft.UserControl):
         self._title = ft.Text("Analisi meteo", color="blue", size=24)
         self._page.controls.append(self._title)
 
-        #ROW with some controls
+        #row1 --> key=value
         self.dd_mese = ft.Dropdown(options=[ft.dropdown.Option(key="1", text="gennaio"),
                                             ft.dropdown.Option(key="2", text="febbraio"),
                                             ft.dropdown.Option(key="3", text="marzo"),
